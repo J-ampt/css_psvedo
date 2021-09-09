@@ -1,0 +1,14 @@
+p::first-letter{
+  font-size: 1em;
+  color: red;
+  font-weight: bolder;
+}
+
+p::first-line{
+  background-color: aqua;
+}
+
+p::selection{
+  color: rgb(0, 0, 0);
+  background-color: rgb(154, 250, 0);
+}
